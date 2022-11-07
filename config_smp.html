@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://garimahdi.github.io/yab-smp-mockup/css/homeStyling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <title>Scan Configuration</title>
+</head>
+<body id="body">
+    <div class="comp_banner">
+        <img src="https://garimahdi.github.io/yab-smp-mockup/media/yab_header.png" alt="customised_header"/>
+    </div>
+    <div class="main_menu">
+        <strong>Dokumen SMP</strong>
+        <br>
+        <br>
+        <form class="form">
+            <label for="tanggal" class="label">Tanggal</label>
+            <select id="tanggal" class="opt_spacing">
+                <option value="">Pilih tanggal</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            <select id="bulan" class="opt_spacing">
+                <option value="">Pilih bulan</option>
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+                <option value="apr">Apr</option>
+                <option value="may">May</option>
+                <option value="jun">Jun</option>
+                <option value="jul">Jul</option>
+                <option value="aug">Aug</option>
+                <option value="sep">Sep</option>
+                <option value="oct">Oct</option>
+                <option value="nov">Nov</option>
+                <option value="dec">Dec</option>
+            </select>
+
+            <select id="tahun" class="opt_spacing">
+                <option value="">Pilih tahun</option>
+                <option value="u_2022">Dibawah 2022</option>                
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+            </select>
+        </form>
+
+        <form class="form_spacing">
+            <label for="dokumen" class="label_doc">Bagian Kerja</label>
+            <select id="dokumen" class="opt_spacing_doc">
+                <option value="">Pilih bagian kerja</option>
+                <option value="KP">Kepegawaian (KP)</option>
+                <option value="KR">Kurikulum (KR)</option>
+                <option value="SW">Kesiswaan (SW)</option>
+                <option value="SP">Sarana dan Prasarana (SP)</option>
+                <option value="HU">Humas (HU)<option>
+                <option value="KU">Keuangan (KU)<option>
+            </select>
+        </form>
+
+        <form class="form_spacing">
+            <label for="user" class="label_user">Jenis Dokumen</label>
+            <select id="user" class="opt_spacing_user">
+                <option value="">Pilih jenis dokumen</option>
+                <option value="KP01">SK Tetap - Kontrak (KP01)</option>
+                <option value="KP02">Ijazah (Pegawai dan Guru) (KP02)</option>
+                <option value="KP03">Surat Tugas (KP03)</option>
+                <option value="KR01">Administrasi Guru (KR01)</option>
+                <option value="KR02">Rapor dan Daftar Nilai (Leger Siswa) (KR02)</option>
+                <option value="KR03">KTSP (KR03)</option>
+                <option value="SW01">PPDB (SW01)</option>
+                <option value="SW02">PLS (SW02)</option>
+                <option value="SW03">Organisasi Siswa (SW03)</option>
+                <option value="SW031">Prestasi (SW03)</option>
+                <option value="SW04">Ijazah Siswa (SW04)</option>
+                <option value="SP01">Permintaan (SP01)</option>
+                <option value="SP02">Pengadaan (SP02)</option>
+                <option value="SP03">Pemeliharaan (SP03)</option>
+                <option value="SP04">Penghapusan (SP04)</option>
+                <option value="HU01">Publikasi dan Dokumentasi (HU01)</option>
+                <option value="HU02">Hubungan dengan Stakeholders (HU02)</option>
+                <option value="HU03">Promosi (HU03)</option>
+                <option value="KU01">Anggaran (KU01)</option>
+                <option value="KU02">Gaji Lembur dan Tunjangan (KU02)</option>
+                <option value="KU03">Iuran (KU03)</option>
+                <option value="KU04">Beasiswa (KU04)</option>
+            </select>
+        </form>
+
+        <form class="form_spacing_letter_no">
+            <label for="no_surat" class="letter_no_spacing_exp">Nomor Surat</label>
+            <input type="text" id="no_surat" placeholder="Masukkan nomor surat" class="text_width"/>
+        </form>
+
+        <div class="div_button">
+            <a href="https://garimahdi.github.io/yab-smp-mockup/" class="button_link">
+                <button class="button_style"><span class="arrow_style">&larr; </span>Back</button>
+            </a>
+            <button class="button_style">Scan<span class="arrow_style"> &rarr;</span></button>
+        </div>
+    </div>
+    <div class="footer1">
+        Copyright &copy; Astragraphia <span id="anno"></span>
+    </div>
+    <script src="https://garimahdi.github.io/yab-smp-mockup/js/script.js"></script>
+</body>
+</html>
